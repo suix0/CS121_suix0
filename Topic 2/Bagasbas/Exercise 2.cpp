@@ -25,7 +25,6 @@ int main(){
         bucket4 = bucket2 /10;
         sum = bucket + bucket3 + bucket4;
         cout << "The sum of the digits is: " << sum << endl;
-
     } else {
         cout << "Invalid input" << endl;
     }
