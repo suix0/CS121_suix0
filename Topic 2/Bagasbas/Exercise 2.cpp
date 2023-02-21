@@ -18,6 +18,7 @@ int main(){
     if (num1 >= 0 && num1 <= 1000){
         // If the number entered is valid, calculate sum
         // Lezgo hardcode i am still noob looper T_T
+        // Will optimize code when i am master looper xd
         bucket = num1 % 10;
         bucket2 = num1 / 10;
         bucket3 = bucket2 % 10;
