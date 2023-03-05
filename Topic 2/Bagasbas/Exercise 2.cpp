@@ -28,5 +28,6 @@ int main(){
     } else {
         cout << "Invalid input" << endl;
     }
+    return 0;
 }
 

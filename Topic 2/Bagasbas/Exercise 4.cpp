@@ -18,4 +18,8 @@ int main(){
     double pricePerGal = 0.0;
     cout << "Enter price per galon: "; cin >> pricePerGal;
 
+    // Calculate cost of the trip
+    double costOfTrip = (drivingDistance / milesPerGal) * pricePerGal;
+    cout << "The cost of driving is $" << costOfTrip << endl;
+    return 0;
 }

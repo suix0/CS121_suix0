@@ -27,4 +27,5 @@ int main(){
 
     // Display results
     cout << "BMI is: " << bmi << endl;
+    return 0;
 }
