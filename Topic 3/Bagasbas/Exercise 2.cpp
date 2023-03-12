@@ -9,10 +9,6 @@ int main(){
     cout << "Enter two integers: "; cin >> num1 >> num2;
 
     // Check if the first number is divisible by the second
-    if (num1 % num2 == 0){
-        cout << num1 << " is divisible by " << num2 << endl;
-    } else {
-        cout << num1 << " is not divisible by " << num2 << endl;
-    }
+    num1 % num2 == 0? cout << num1 << " is divisible by " << num2 << endl : cout << num1 << " is not divisible by " << num2 << endl; 
     return 0;
 }

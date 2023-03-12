@@ -1,7 +1,6 @@
 // A program that solves a 2x2 linear equation
 
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
@@ -20,10 +19,6 @@ int main() {
     double y = ((a * f) - (e * c)) / bucket;
 
     // Display answer
-    if (bucket == 0.0){
-        cout << "\n\tThe equation has no solution" << endl;
-    } else {
-        cout << "\n\tx is " << x << " and y is " << y << endl;
-    }
+    bucket == 0? cout << "The equation has no solution" : cout << "x is " << x << " and y s " << y << endl;
     return 0;
 }
