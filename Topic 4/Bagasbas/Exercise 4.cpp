@@ -1,18 +1,7 @@
 /* A program that prompts the user to enter a letter and 
 check whether the letter is vowel or consonant */
-
 #include <iostream>
 #include <string>
-
-std::string title(string userName){
-    char firstChar = userName.at(0);
-    std::string erasedName = userName.erase(0, 1);
-    std::cout << erasedName << std::endl;
-    firstChar = toupper(firstChar);
-    std::cout << firstChar << std::endl;
-    std::string titledUserName = firstChar + erasedName;
-    std::cout << titledUserName << std::endl;
-}
 
 // Define a function that will loop through a string of vowels and check if
 // the input letter is vowel or consonant
